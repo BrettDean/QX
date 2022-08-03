@@ -1,2 +1,5 @@
-Quantumult X懒人配置
-自用懒人配置
+Quantumult X懒人配置自用懒人配置
+
+如何使用：
+
+打开Quantumult X -> 右下角风车 -> 右上角链接 -＞ 复制订阅链接进去确定即可！
