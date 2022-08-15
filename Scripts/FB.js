@@ -25,10 +25,11 @@
 
     },
     "entitlements" : {
-      "filebox_pro": {"grace_period_expires_date": null,
-"purchase_date": "1983-03-15T00:00:00Z",
-"product_identifier": "filebox_pro",
-"expires_date": "2999-03-15T00:00:00Z"
+      "filebox_pro" : {
+        "grace_period_expires_date" : null,
+        "purchase_date" : "1983-03-15T00:00:00Z",
+        "product_identifier" : "filebox_pro",
+        "expires_date" : null
       }
     },
     "original_purchase_date" : "1983-03-15T00:00:00Z",
