@@ -1,10 +1,7 @@
 /******************************
-
 [rewrite_local]
 # Fileball 解锁高级版
-# 下载地址：http://mtw.so/5X5nGK
-^https?:\/\/.*\.com\/api\/app\/user\/info$ url script-response-body https://raw.githubusercontent.com/chxm1023/QX/main/Scripts/FB.js
-^https?:\/\/.*\.com\/api\/app\/media url script-request-header https://raw.githubusercontent.com/chxm1023/QX/main/Scripts/FB.js
+^https?:\/\/api\.revenuecat\.com\/v\d\/(subscribers/\$RCAnonymousID\%(\w)+|receipts)$ url echo-response text/Json echo-response https://raw.githubusercontent.com/chxm1023/QX/main/Scripts/FB.js
 
 [mitm]
 hostname= api.revenuecat.com
