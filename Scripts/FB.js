@@ -1,4 +1,6 @@
 /*
+
+
 [rewrite_local]
 # Fileball 解锁高级版
 # 下载地址：http://mtw.so/5X5nGK
@@ -6,9 +8,15 @@
 
 [mitm]
 hostname= api.revenuecat.com
+
+
 */
 
-{
+
+var chxm = JSON.parse($response.body); 
+// 
+
+chxm ={
   "request_date_ms" : 416505600000,
   "request_date" : "1983-03-15T00:00:00Z",
   "subscriber" : {
@@ -47,3 +55,5 @@ hostname= api.revenuecat.com
     "last_seen" : "1983-03-15T00:00:00Z"
   }
 }
+
+$done({body:JSON.stringify(chxm)});
