@@ -1,7 +1,4 @@
-var chxm = JSON.parse($response.body); 
-// 
-
-chxm ={
+{
   "request_date_ms" : 416505600000,
   "request_date" : "1983-03-15T00:00:00Z",
   "subscriber" : {
@@ -39,5 +36,3 @@ chxm ={
     "last_seen" : "1983-03-15T00:00:00Z"
   }
 }
-
-$done({body:JSON.stringify(chxm)});
