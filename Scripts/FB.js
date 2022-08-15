@@ -1,4 +1,4 @@
-/*
+
 
 [rewrite_local]
 # Fileball 解锁高级版
@@ -9,7 +9,6 @@
 hostname= api.revenuecat.com
 
 
-*/
 
 {
   "request_date_ms" : 416505600000,
